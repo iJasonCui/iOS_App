@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2D4FDFB15333CC90088E81E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D4FDFA15333CC90088E81E /* UIKit.framework */; };
+		B2D4FDFD15333CC90088E81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D4FDFC15333CC90088E81E /* Foundation.framework */; };
+		B2D4FDFF15333CC90088E81E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D4FDFE15333CC90088E81E /* CoreGraphics.framework */; };
+		B2D4FE0515333CC90088E81E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE0315333CC90088E81E /* InfoPlist.strings */; };
+		B2D4FE0715333CC90088E81E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FE0615333CC90088E81E /* main.m */; };
+		B2D4FE0B15333CC90088E81E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FE0A15333CC90088E81E /* AppDelegate.m */; };
+		B2D4FE0E15333CC90088E81E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FE0D15333CC90088E81E /* ViewController.m */; };
+		B2D4FE1115333CC90088E81E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE0F15333CC90088E81E /* ViewController_iPhone.xib */; };
+		B2D4FE2615333E560088E81E /* OceanWave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE1C15333E560088E81E /* OceanWave.jpg */; };
+		B2D4FE2715333E560088E81E /* Rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE1D15333E560088E81E /* Rain.jpg */; };
+		B2D4FE2815333E560088E81E /* songbird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE1E15333E560088E81E /* songbird.jpg */; };
+		B2D4FE2915333E560088E81E /* thumbOceanWave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE1F15333E560088E81E /* thumbOceanWave.jpg */; };
+		B2D4FE2A15333E560088E81E /* thumbRain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE2015333E560088E81E /* thumbRain.jpg */; };
+		B2D4FE2B15333E560088E81E /* thumbsongbird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE2115333E560088E81E /* thumbsongbird.jpg */; };
+		B2D4FE2C15333E560088E81E /* thumbWhale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE2215333E560088E81E /* thumbWhale.jpg */; };
+		B2D4FE2D15333E560088E81E /* thumbWindChimes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE2315333E560088E81E /* thumbWindChimes.jpg */; };
+		B2D4FE2E15333E560088E81E /* Whale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE2415333E560088E81E /* Whale.jpg */; };
+		B2D4FE2F15333E560088E81E /* WindChimes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE2515333E560088E81E /* WindChimes.jpg */; };
+		B2D4FE3115333EB30088E81E /* BlueForTable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE3015333EB30088E81E /* BlueForTable.jpg */; };
+		B2D4FE4515334A580088E81E /* birds.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE4015334A580088E81E /* birds.m4a */; };
+		B2D4FE4615334A580088E81E /* ocean.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE4115334A580088E81E /* ocean.m4a */; };
+		B2D4FE4715334A580088E81E /* rain.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE4215334A580088E81E /* rain.m4a */; };
+		B2D4FE4815334A580088E81E /* whales.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE4315334A580088E81E /* whales.m4a */; };
+		B2D4FE4915334A580088E81E /* windchimes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE4415334A580088E81E /* windchimes.m4a */; };
+		B2D4FE4D15334AC40088E81E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FE4B15334AC40088E81E /* DetailViewController.m */; };
+		B2D4FE4E15334AC40088E81E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE4C15334AC40088E81E /* DetailViewController.xib */; };
+		B2D4FE891533543A0088E81E /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE871533543A0088E81E /* pausebutton.png */; };
+		B2D4FE8A1533543A0088E81E /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE881533543A0088E81E /* playbutton.png */; };
+		B2D4FE90153356810088E81E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D4FE8F153356810088E81E /* AudioToolbox.framework */; };
+		B2D4FE92153356850088E81E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D4FE91153356850088E81E /* AVFoundation.framework */; };
+		B2D4FE9B15336FE00088E81E /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B2D4FE9A15336FE00088E81E /* README.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2D4FDF615333CC90088E81E /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D4FDFA15333CC90088E81E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2D4FDFC15333CC90088E81E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2D4FDFE15333CC90088E81E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2D4FE0215333CC90088E81E /* AudioPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlayer-Info.plist"; sourceTree = "<group>"; };
+		B2D4FE0415333CC90088E81E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2D4FE0615333CC90088E81E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2D4FE0815333CC90088E81E /* AudioPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		B2D4FE0915333CC90088E81E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2D4FE0A15333CC90088E81E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2D4FE0C15333CC90088E81E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2D4FE0D15333CC90088E81E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2D4FE1015333CC90088E81E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B2D4FE1C15333E560088E81E /* OceanWave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = OceanWave.jpg; path = images/OceanWave.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE1D15333E560088E81E /* Rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rain.jpg; path = images/Rain.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE1E15333E560088E81E /* songbird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = songbird.jpg; path = images/songbird.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE1F15333E560088E81E /* thumbOceanWave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumbOceanWave.jpg; path = images/thumbOceanWave.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE2015333E560088E81E /* thumbRain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumbRain.jpg; path = images/thumbRain.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE2115333E560088E81E /* thumbsongbird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumbsongbird.jpg; path = images/thumbsongbird.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE2215333E560088E81E /* thumbWhale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumbWhale.jpg; path = images/thumbWhale.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE2315333E560088E81E /* thumbWindChimes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumbWindChimes.jpg; path = images/thumbWindChimes.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE2415333E560088E81E /* Whale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Whale.jpg; path = images/Whale.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE2515333E560088E81E /* WindChimes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WindChimes.jpg; path = images/WindChimes.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE3015333EB30088E81E /* BlueForTable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BlueForTable.jpg; path = images/BlueForTable.jpg; sourceTree = SOURCE_ROOT; };
+		B2D4FE4015334A580088E81E /* birds.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = birds.m4a; path = sounds/birds.m4a; sourceTree = SOURCE_ROOT; };
+		B2D4FE4115334A580088E81E /* ocean.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = ocean.m4a; path = sounds/ocean.m4a; sourceTree = SOURCE_ROOT; };
+		B2D4FE4215334A580088E81E /* rain.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = rain.m4a; path = sounds/rain.m4a; sourceTree = SOURCE_ROOT; };
+		B2D4FE4315334A580088E81E /* whales.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = whales.m4a; path = sounds/whales.m4a; sourceTree = SOURCE_ROOT; };
+		B2D4FE4415334A580088E81E /* windchimes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = windchimes.m4a; path = sounds/windchimes.m4a; sourceTree = SOURCE_ROOT; };
+		B2D4FE4A15334AC40088E81E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B2D4FE4B15334AC40088E81E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B2D4FE4C15334AC40088E81E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		B2D4FE871533543A0088E81E /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pausebutton.png; path = images/pausebutton.png; sourceTree = SOURCE_ROOT; };
+		B2D4FE881533543A0088E81E /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playbutton.png; path = images/playbutton.png; sourceTree = SOURCE_ROOT; };
+		B2D4FE8F153356810088E81E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B2D4FE91153356850088E81E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B2D4FE9A15336FE00088E81E /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2D4FDF315333CC90088E81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D4FE92153356850088E81E /* AVFoundation.framework in Frameworks */,
+				B2D4FE90153356810088E81E /* AudioToolbox.framework in Frameworks */,
+				B2D4FDFB15333CC90088E81E /* UIKit.framework in Frameworks */,
+				B2D4FDFD15333CC90088E81E /* Foundation.framework in Frameworks */,
+				B2D4FDFF15333CC90088E81E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2D4FDEB15333CC90088E81E = {
+			isa = PBXGroup;
+			children = (
+				B2D4FE91153356850088E81E /* AVFoundation.framework */,
+				B2D4FE8F153356810088E81E /* AudioToolbox.framework */,
+				B2D4FE0015333CC90088E81E /* AudioPlayer */,
+				B2D4FDF915333CC90088E81E /* Frameworks */,
+				B2D4FDF715333CC90088E81E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D4FDF715333CC90088E81E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FDF615333CC90088E81E /* AudioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D4FDF915333CC90088E81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FDFA15333CC90088E81E /* UIKit.framework */,
+				B2D4FDFC15333CC90088E81E /* Foundation.framework */,
+				B2D4FDFE15333CC90088E81E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2D4FE0015333CC90088E81E /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FE9A15336FE00088E81E /* README.rtf */,
+				B2D4FE1B15333CDB0088E81E /* sounds */,
+				B2D4FE1A15333CD40088E81E /* images */,
+				B2D4FE0915333CC90088E81E /* AppDelegate.h */,
+				B2D4FE0A15333CC90088E81E /* AppDelegate.m */,
+				B2D4FE0C15333CC90088E81E /* ViewController.h */,
+				B2D4FE0D15333CC90088E81E /* ViewController.m */,
+				B2D4FE4A15334AC40088E81E /* DetailViewController.h */,
+				B2D4FE4B15334AC40088E81E /* DetailViewController.m */,
+				B2D4FE4C15334AC40088E81E /* DetailViewController.xib */,
+				B2D4FE0F15333CC90088E81E /* ViewController_iPhone.xib */,
+				B2D4FE0115333CC90088E81E /* Supporting Files */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		B2D4FE0115333CC90088E81E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FE871533543A0088E81E /* pausebutton.png */,
+				B2D4FE881533543A0088E81E /* playbutton.png */,
+				B2D4FE0215333CC90088E81E /* AudioPlayer-Info.plist */,
+				B2D4FE0315333CC90088E81E /* InfoPlist.strings */,
+				B2D4FE0615333CC90088E81E /* main.m */,
+				B2D4FE0815333CC90088E81E /* AudioPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2D4FE1A15333CD40088E81E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FE3015333EB30088E81E /* BlueForTable.jpg */,
+				B2D4FE1C15333E560088E81E /* OceanWave.jpg */,
+				B2D4FE1D15333E560088E81E /* Rain.jpg */,
+				B2D4FE1E15333E560088E81E /* songbird.jpg */,
+				B2D4FE1F15333E560088E81E /* thumbOceanWave.jpg */,
+				B2D4FE2015333E560088E81E /* thumbRain.jpg */,
+				B2D4FE2115333E560088E81E /* thumbsongbird.jpg */,
+				B2D4FE2215333E560088E81E /* thumbWhale.jpg */,
+				B2D4FE2315333E560088E81E /* thumbWindChimes.jpg */,
+				B2D4FE2415333E560088E81E /* Whale.jpg */,
+				B2D4FE2515333E560088E81E /* WindChimes.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B2D4FE1B15333CDB0088E81E /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FE4015334A580088E81E /* birds.m4a */,
+				B2D4FE4115334A580088E81E /* ocean.m4a */,
+				B2D4FE4215334A580088E81E /* rain.m4a */,
+				B2D4FE4315334A580088E81E /* whales.m4a */,
+				B2D4FE4415334A580088E81E /* windchimes.m4a */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2D4FDF515333CC90088E81E /* AudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D4FE1715333CCA0088E81E /* Build configuration list for PBXNativeTarget "AudioPlayer" */;
+			buildPhases = (
+				B2D4FDF215333CC90088E81E /* Sources */,
+				B2D4FDF315333CC90088E81E /* Frameworks */,
+				B2D4FDF415333CC90088E81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayer;
+			productName = AudioPlayer;
+			productReference = B2D4FDF615333CC90088E81E /* AudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D4FDED15333CC90088E81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B2D4FDF015333CC90088E81E /* Build configuration list for PBXProject "AudioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2D4FDEB15333CC90088E81E;
+			productRefGroup = B2D4FDF715333CC90088E81E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D4FDF515333CC90088E81E /* AudioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2D4FDF415333CC90088E81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D4FE0515333CC90088E81E /* InfoPlist.strings in Resources */,
+				B2D4FE1115333CC90088E81E /* ViewController_iPhone.xib in Resources */,
+				B2D4FE2615333E560088E81E /* OceanWave.jpg in Resources */,
+				B2D4FE2715333E560088E81E /* Rain.jpg in Resources */,
+				B2D4FE2815333E560088E81E /* songbird.jpg in Resources */,
+				B2D4FE2915333E560088E81E /* thumbOceanWave.jpg in Resources */,
+				B2D4FE2A15333E560088E81E /* thumbRain.jpg in Resources */,
+				B2D4FE2B15333E560088E81E /* thumbsongbird.jpg in Resources */,
+				B2D4FE2C15333E560088E81E /* thumbWhale.jpg in Resources */,
+				B2D4FE2D15333E560088E81E /* thumbWindChimes.jpg in Resources */,
+				B2D4FE2E15333E560088E81E /* Whale.jpg in Resources */,
+				B2D4FE2F15333E560088E81E /* WindChimes.jpg in Resources */,
+				B2D4FE3115333EB30088E81E /* BlueForTable.jpg in Resources */,
+				B2D4FE4515334A580088E81E /* birds.m4a in Resources */,
+				B2D4FE4615334A580088E81E /* ocean.m4a in Resources */,
+				B2D4FE4715334A580088E81E /* rain.m4a in Resources */,
+				B2D4FE4815334A580088E81E /* whales.m4a in Resources */,
+				B2D4FE4915334A580088E81E /* windchimes.m4a in Resources */,
+				B2D4FE4E15334AC40088E81E /* DetailViewController.xib in Resources */,
+				B2D4FE891533543A0088E81E /* pausebutton.png in Resources */,
+				B2D4FE8A1533543A0088E81E /* playbutton.png in Resources */,
+				B2D4FE9B15336FE00088E81E /* README.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2D4FDF215333CC90088E81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D4FE0715333CC90088E81E /* main.m in Sources */,
+				B2D4FE0B15333CC90088E81E /* AppDelegate.m in Sources */,
+				B2D4FE0E15333CC90088E81E /* ViewController.m in Sources */,
+				B2D4FE4D15334AC40088E81E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2D4FE0315333CC90088E81E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D4FE0415333CC90088E81E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2D4FE0F15333CC90088E81E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D4FE1015333CC90088E81E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2D4FE1515333CCA0088E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2D4FE1615333CCA0088E81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2D4FE1815333CCA0088E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayer/AudioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayer/AudioPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2D4FE1915333CCA0088E81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayer/AudioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayer/AudioPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2D4FDF015333CC90088E81E /* Build configuration list for PBXProject "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D4FE1515333CCA0088E81E /* Debug */,
+				B2D4FE1615333CCA0088E81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D4FE1715333CCA0088E81E /* Build configuration list for PBXNativeTarget "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D4FE1815333CCA0088E81E /* Debug */,
+				B2D4FE1915333CCA0088E81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2D4FDED15333CC90088E81E /* Project object */;
+}
