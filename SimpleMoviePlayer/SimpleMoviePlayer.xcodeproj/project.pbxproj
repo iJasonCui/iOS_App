@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D794C4701891AF47005C54B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794C46F1891AF47005C54B3 /* Foundation.framework */; };
+		D794C4721891AF47005C54B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794C4711891AF47005C54B3 /* CoreGraphics.framework */; };
+		D794C4741891AF47005C54B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794C4731891AF47005C54B3 /* UIKit.framework */; };
+		D794C47A1891AF47005C54B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D794C4781891AF47005C54B3 /* InfoPlist.strings */; };
+		D794C47C1891AF47005C54B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D794C47B1891AF47005C54B3 /* main.m */; };
+		D794C4801891AF47005C54B3 /* JCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D794C47F1891AF47005C54B3 /* JCDAppDelegate.m */; };
+		D794C4831891AF47005C54B3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D794C4811891AF47005C54B3 /* Main_iPhone.storyboard */; };
+		D794C4861891AF47005C54B3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D794C4841891AF47005C54B3 /* Main_iPad.storyboard */; };
+		D794C4891891AF47005C54B3 /* JCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D794C4881891AF47005C54B3 /* JCDViewController.m */; };
+		D794C48B1891AF47005C54B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D794C48A1891AF47005C54B3 /* Images.xcassets */; };
+		D794C4921891AF48005C54B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794C4911891AF48005C54B3 /* XCTest.framework */; };
+		D794C4931891AF48005C54B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794C46F1891AF47005C54B3 /* Foundation.framework */; };
+		D794C4941891AF48005C54B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794C4731891AF47005C54B3 /* UIKit.framework */; };
+		D794C49C1891AF48005C54B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D794C49A1891AF48005C54B3 /* InfoPlist.strings */; };
+		D794C49E1891AF48005C54B3 /* SimpleMoviePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D794C49D1891AF48005C54B3 /* SimpleMoviePlayerTests.m */; };
+		D794C4A81891B291005C54B3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794C4A71891B291005C54B3 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D794C4951891AF48005C54B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D794C4641891AF47005C54B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D794C46B1891AF47005C54B3;
+			remoteInfo = SimpleMoviePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D794C46C1891AF47005C54B3 /* SimpleMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D794C46F1891AF47005C54B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D794C4711891AF47005C54B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D794C4731891AF47005C54B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D794C4771891AF47005C54B3 /* SimpleMoviePlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMoviePlayer-Info.plist"; sourceTree = "<group>"; };
+		D794C4791891AF47005C54B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D794C47B1891AF47005C54B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D794C47D1891AF47005C54B3 /* SimpleMoviePlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleMoviePlayer-Prefix.pch"; sourceTree = "<group>"; };
+		D794C47E1891AF47005C54B3 /* JCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCDAppDelegate.h; sourceTree = "<group>"; };
+		D794C47F1891AF47005C54B3 /* JCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCDAppDelegate.m; sourceTree = "<group>"; };
+		D794C4821891AF47005C54B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D794C4851891AF47005C54B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D794C4871891AF47005C54B3 /* JCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCDViewController.h; sourceTree = "<group>"; };
+		D794C4881891AF47005C54B3 /* JCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCDViewController.m; sourceTree = "<group>"; };
+		D794C48A1891AF47005C54B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D794C4901891AF48005C54B3 /* SimpleMoviePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMoviePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D794C4911891AF48005C54B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D794C4991891AF48005C54B3 /* SimpleMoviePlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMoviePlayerTests-Info.plist"; sourceTree = "<group>"; };
+		D794C49B1891AF48005C54B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D794C49D1891AF48005C54B3 /* SimpleMoviePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleMoviePlayerTests.m; sourceTree = "<group>"; };
+		D794C4A71891B291005C54B3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D794C4691891AF47005C54B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794C4A81891B291005C54B3 /* MediaPlayer.framework in Frameworks */,
+				D794C4721891AF47005C54B3 /* CoreGraphics.framework in Frameworks */,
+				D794C4741891AF47005C54B3 /* UIKit.framework in Frameworks */,
+				D794C4701891AF47005C54B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D794C48D1891AF48005C54B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794C4921891AF48005C54B3 /* XCTest.framework in Frameworks */,
+				D794C4941891AF48005C54B3 /* UIKit.framework in Frameworks */,
+				D794C4931891AF48005C54B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D794C4631891AF46005C54B3 = {
+			isa = PBXGroup;
+			children = (
+				D794C4751891AF47005C54B3 /* SimpleMoviePlayer */,
+				D794C4971891AF48005C54B3 /* SimpleMoviePlayerTests */,
+				D794C46E1891AF47005C54B3 /* Frameworks */,
+				D794C46D1891AF47005C54B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D794C46D1891AF47005C54B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D794C46C1891AF47005C54B3 /* SimpleMoviePlayer.app */,
+				D794C4901891AF48005C54B3 /* SimpleMoviePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D794C46E1891AF47005C54B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D794C4A71891B291005C54B3 /* MediaPlayer.framework */,
+				D794C46F1891AF47005C54B3 /* Foundation.framework */,
+				D794C4711891AF47005C54B3 /* CoreGraphics.framework */,
+				D794C4731891AF47005C54B3 /* UIKit.framework */,
+				D794C4911891AF48005C54B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D794C4751891AF47005C54B3 /* SimpleMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D794C47E1891AF47005C54B3 /* JCDAppDelegate.h */,
+				D794C47F1891AF47005C54B3 /* JCDAppDelegate.m */,
+				D794C4811891AF47005C54B3 /* Main_iPhone.storyboard */,
+				D794C4841891AF47005C54B3 /* Main_iPad.storyboard */,
+				D794C4871891AF47005C54B3 /* JCDViewController.h */,
+				D794C4881891AF47005C54B3 /* JCDViewController.m */,
+				D794C48A1891AF47005C54B3 /* Images.xcassets */,
+				D794C4761891AF47005C54B3 /* Supporting Files */,
+			);
+			path = SimpleMoviePlayer;
+			sourceTree = "<group>";
+		};
+		D794C4761891AF47005C54B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D794C4771891AF47005C54B3 /* SimpleMoviePlayer-Info.plist */,
+				D794C4781891AF47005C54B3 /* InfoPlist.strings */,
+				D794C47B1891AF47005C54B3 /* main.m */,
+				D794C47D1891AF47005C54B3 /* SimpleMoviePlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D794C4971891AF48005C54B3 /* SimpleMoviePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D794C49D1891AF48005C54B3 /* SimpleMoviePlayerTests.m */,
+				D794C4981891AF48005C54B3 /* Supporting Files */,
+			);
+			path = SimpleMoviePlayerTests;
+			sourceTree = "<group>";
+		};
+		D794C4981891AF48005C54B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D794C4991891AF48005C54B3 /* SimpleMoviePlayerTests-Info.plist */,
+				D794C49A1891AF48005C54B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D794C46B1891AF47005C54B3 /* SimpleMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D794C4A11891AF48005C54B3 /* Build configuration list for PBXNativeTarget "SimpleMoviePlayer" */;
+			buildPhases = (
+				D794C4681891AF47005C54B3 /* Sources */,
+				D794C4691891AF47005C54B3 /* Frameworks */,
+				D794C46A1891AF47005C54B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMoviePlayer;
+			productName = SimpleMoviePlayer;
+			productReference = D794C46C1891AF47005C54B3 /* SimpleMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D794C48F1891AF48005C54B3 /* SimpleMoviePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D794C4A41891AF48005C54B3 /* Build configuration list for PBXNativeTarget "SimpleMoviePlayerTests" */;
+			buildPhases = (
+				D794C48C1891AF48005C54B3 /* Sources */,
+				D794C48D1891AF48005C54B3 /* Frameworks */,
+				D794C48E1891AF48005C54B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D794C4961891AF48005C54B3 /* PBXTargetDependency */,
+			);
+			name = SimpleMoviePlayerTests;
+			productName = SimpleMoviePlayerTests;
+			productReference = D794C4901891AF48005C54B3 /* SimpleMoviePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D794C4641891AF47005C54B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JCD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jason Cui";
+				TargetAttributes = {
+					D794C48F1891AF48005C54B3 = {
+						TestTargetID = D794C46B1891AF47005C54B3;
+					};
+				};
+			};
+			buildConfigurationList = D794C4671891AF47005C54B3 /* Build configuration list for PBXProject "SimpleMoviePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D794C4631891AF46005C54B3;
+			productRefGroup = D794C46D1891AF47005C54B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D794C46B1891AF47005C54B3 /* SimpleMoviePlayer */,
+				D794C48F1891AF48005C54B3 /* SimpleMoviePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D794C46A1891AF47005C54B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794C4861891AF47005C54B3 /* Main_iPad.storyboard in Resources */,
+				D794C48B1891AF47005C54B3 /* Images.xcassets in Resources */,
+				D794C4831891AF47005C54B3 /* Main_iPhone.storyboard in Resources */,
+				D794C47A1891AF47005C54B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D794C48E1891AF48005C54B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794C49C1891AF48005C54B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D794C4681891AF47005C54B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794C4801891AF47005C54B3 /* JCDAppDelegate.m in Sources */,
+				D794C4891891AF47005C54B3 /* JCDViewController.m in Sources */,
+				D794C47C1891AF47005C54B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D794C48C1891AF48005C54B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794C49E1891AF48005C54B3 /* SimpleMoviePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D794C4961891AF48005C54B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D794C46B1891AF47005C54B3 /* SimpleMoviePlayer */;
+			targetProxy = D794C4951891AF48005C54B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D794C4781891AF47005C54B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D794C4791891AF47005C54B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D794C4811891AF47005C54B3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D794C4821891AF47005C54B3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D794C4841891AF47005C54B3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D794C4851891AF47005C54B3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D794C49A1891AF48005C54B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D794C49B1891AF48005C54B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D794C49F1891AF48005C54B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D794C4A01891AF48005C54B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D794C4A21891AF48005C54B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMoviePlayer/SimpleMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMoviePlayer/SimpleMoviePlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D794C4A31891AF48005C54B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMoviePlayer/SimpleMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMoviePlayer/SimpleMoviePlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D794C4A51891AF48005C54B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleMoviePlayer.app/SimpleMoviePlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMoviePlayer/SimpleMoviePlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleMoviePlayerTests/SimpleMoviePlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D794C4A61891AF48005C54B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleMoviePlayer.app/SimpleMoviePlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMoviePlayer/SimpleMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMoviePlayerTests/SimpleMoviePlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D794C4671891AF47005C54B3 /* Build configuration list for PBXProject "SimpleMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D794C49F1891AF48005C54B3 /* Debug */,
+				D794C4A01891AF48005C54B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D794C4A11891AF48005C54B3 /* Build configuration list for PBXNativeTarget "SimpleMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D794C4A21891AF48005C54B3 /* Debug */,
+				D794C4A31891AF48005C54B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D794C4A41891AF48005C54B3 /* Build configuration list for PBXNativeTarget "SimpleMoviePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D794C4A51891AF48005C54B3 /* Debug */,
+				D794C4A61891AF48005C54B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D794C4641891AF47005C54B3 /* Project object */;
+}

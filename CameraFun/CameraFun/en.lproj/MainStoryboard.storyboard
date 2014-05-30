@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Home - First-->
+        <scene sceneID="11">
+            <objects>
+                <viewController title="First" id="2" customClass="Home" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p9j-Ob-6Gl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="home.png" id="LJD-1z-ML9" userLabel="backgroundPic">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.69999998807907104" contentMode="scaleToFill" editable="NO" id="sPX-7o-aZ7" userLabel="animatedObjectText">
+                                <rect key="frame" x="0.0" y="-23" width="320" height="390"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+
+
+Welcome to CameraFun!
+
+Praesent nec tortor non lectus faucibus luctus in eget nisi. Suspendisse posuere mi at magna vulputate in lobortis mi sollicitudin. Mauris et sodales erat. Etiam lorem sapien, accumsan sagittis feugiat id, luctus et lorem.
+
+
+Praesent nec tortor non lectus faucibus luctus in eget nisi. Suspendisse posuere mi at magna vulputate in lobortis mi sollicitudin. Mauris et sodales erat. Etiam lorem sapien, accumsan sagittis feugiat id, luctus et lorem.
+
+
+Praesent nec tortor non lectus faucibus luctus in eget nisi. Suspendisse posuere mi at magna vulputate in lobortis mi sollicitudin. Mauris et sodales erat. Etiam lorem sapien, accumsan sagittis feugiat id, luctus et lorem.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view hidden="YES" contentMode="scaleToFill" id="kDW-Y4-IxL" userLabel="animatedObjectUIView">
+                                <rect key="frame" x="100" y="279" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="WeDict.png" id="xBR-Ap-SpI" userLabel="animatedObjectImage">
+                                <rect key="frame" x="38" y="149" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OH0-Di-cNK"/>
+                    <connections>
+                        <outlet property="uiTextViewToAnimate_" destination="sPX-7o-aZ7" id="auQ-Gl-1lS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="816"/>
+        </scene>
+        <!--Navigation Controller - CameraFun-->
+        <scene sceneID="nfP-Tf-udC">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="aMv-TS-pMH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="CameraFun" image="camera.png" id="YBf-ML-aG5"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="black" id="h0w-SO-xmk">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="HiM-N5-yjg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kZV-07-gAM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24" y="816"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="aMv-TS-pMH" kind="relationship" relationship="viewControllers" id="koN-Ox-3DL"/>
+                        <segue destination="TlU-4d-X3P" kind="relationship" relationship="viewControllers" id="QbV-zb-Y3o"/>
+                        <segue destination="dLQ-Kl-fHB" kind="relationship" relationship="viewControllers" id="LTO-Ps-l1h"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-566" y="256"/>
+        </scene>
+        <!--Root View Controller - Choose Your Celebrity-->
+        <scene sceneID="IB4-HJ-qn4">
+            <objects>
+                <tableViewController storyboardIdentifier="tigger" id="3Eu-L3-2AB" customClass="RootViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Xyp-Ch-ckd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tigger" id="0Zt-AB-eFp">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Zt-AB-eFp" id="Bqv-O4-qZv">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3Eu-L3-2AB" id="a7E-yR-Cdh"/>
+                            <outlet property="delegate" destination="3Eu-L3-2AB" id="0rg-uC-GkI"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Celebrity" id="3VL-87-7cC"/>
+                    <navigationItem key="navigationItem" title="Choose Your Celebrity" id="K7I-S3-Len"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H35-Ke-FOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450" y="-312"/>
+        </scene>
+        <!--Print Photo View Controller - Print-->
+        <scene sceneID="p7q-kf-GIB">
+            <objects>
+                <viewController id="dLQ-Kl-fHB" customClass="PrintPhotoViewController" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5jO-Ao-osT" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Print" image="print30.png" id="INP-tC-boa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2dz-bJ-VXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24" y="256"/>
+        </scene>
+        <!--Navigation Controller - Celebrity-->
+        <scene sceneID="wOD-fg-L3X">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="TlU-4d-X3P" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Celebrity" image="star.png" id="mbl-Bo-bnM"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="blackTranslucent" id="VcI-b0-Hsb">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3Eu-L3-2AB" kind="relationship" relationship="rootViewController" id="bOr-hE-VeO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Khb-qt-bB3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24" y="-312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WeDict.png" width="16" height="16"/>
+        <image name="camera.png" width="26" height="20"/>
+        <image name="home.png" width="320" height="367"/>
+        <image name="print30.png" width="30" height="30"/>
+        <image name="star.png" width="25" height="24"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

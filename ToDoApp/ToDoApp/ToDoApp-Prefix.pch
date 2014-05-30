@@ -1,0 +1,41 @@
+//
+// Prefix header for all source files of the 'ToDoApp' target in the 'ToDoApp' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#define IS_IPHONE [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone
+#define IS_iPHONE_5 ((int) [UIScreen mainScreen].bounds.size.height == 568)
+#define IS_iOS6 ((NSClassFromString(@"UICollectionView") == nil) ? NO : YES)
+#define IS_IPAD [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad
+
+#define UIColorFromRGB(rgbValue) \
+        [UIColor colorWithRed:((float) ((rgbValue & 0xFF0000) >> 16)) / 255.0f \
+                        green:((float) ((rgbValue & 0xFF00) >> 8)) / 255.0f \
+                         blue:((float) (rgbValue & 0xFF)) / 255.0f \
+                        alpha:1.0f]
+
+#define UIColorFromRGBA(rgbaValue) \
+        [UIColor colorWithRed:((float) ((rgbaValue & 0xFF000000) >> 24)) / 255.0f \
+                        green:((float) ((rgbaValue & 0xFF0000) >> 16)) / 255.0f \
+                         blue:((float) ((rgbaValue & 0xFF00) >> 8)) / 255.0f \
+                        alpha:((float) (rgbaValue & 0xFF)) / 255.0f]
+
+//#define cellColorUnchecked 0xFFFFFFFF
+//#define cellColorChecked   0xf0f0f0FF
+
+//#define cellTextUnchecked 0x2B2B2BFF
+//#define cellTextChecked   0x505050FF
+
+//#define cellColorNormal   cellColorUnchecked
+//#define cellColorSelected 0xD0D0D0FF
